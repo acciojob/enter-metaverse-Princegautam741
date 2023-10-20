@@ -1,15 +1,19 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Get references to the HTML elements
-    const statusParagraph = document.getElementById("status");
-    const enterButton = document.getElementById("enterBtn");
-    const outputHeading = document.getElementById("output");
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Metaverse Example</title>
+</head>
+<body>
+  <p id="status">Enter the Metaverse</p>
+  <button id="enterBtn">Enter</button>
 
-    // Add a click event listener to the button
-    enterButton.addEventListener("click", function() {
-        // Update the text in the status paragraph
-        statusParagraph.textContent = "Entered Metaverse";
+  <script>
+    const button = document.getElementById("enterBtn");
+    const para = document.getElementById("status");
 
-        // Display the updated text in the h1 tag
-        outputHeading.textContent = statusParagraph.textContent;
+    button.addEventListener("click", () => {
+      para.innerText = "Entered Metaverse";
     });
-});
+  </script>
+</body>
+</html>
