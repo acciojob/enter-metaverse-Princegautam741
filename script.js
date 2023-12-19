@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Metaverse Example</title>
 </head>
+
 <body>
   <p id="status">Enter the Metaverse</p>
   <button id="enterBtn">Enter</button>
@@ -16,4 +18,5 @@
     });
   </script>
 </body>
+
 </html>
